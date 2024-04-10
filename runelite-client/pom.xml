@@ -37,7 +37,6 @@
 
 	<properties>
 		<jarsigner.skip>true</jarsigner.skip>
-		<pmd.skip>true</pmd.skip>
 		<git.commit.id.abbrev>nogit</git.commit.id.abbrev>
 		<git.dirty>false</git.dirty>
 		<shade.skip>false</shade.skip>
@@ -488,6 +487,7 @@
 						<exclude>**/RuntimeTypeAdapterFactory.java</exclude>
 						<exclude>net/runelite/client/party/Party.java</exclude>
 					</excludes>
+					<skip>true</skip>
 				</configuration>
 				<executions>
 					<execution>
